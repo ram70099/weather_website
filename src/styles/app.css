@@ -1,0 +1,23 @@
+.app-container {
+  background: linear-gradient(to bottom, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.loading {
+  color: white;
+}
+
+.error-message {
+  color: #ff6b6b;
+}
